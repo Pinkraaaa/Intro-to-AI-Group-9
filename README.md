@@ -41,8 +41,6 @@ published app that calls the API below.
    `models/` inside the cloned repo folder) and place them into this
    repo's `backend/models/`, replacing any placeholder there.
 
-No ngrok, no manual tunnel setup needed — training and the local API
-sanity-check both run self-contained inside Colab.
 
 ## Running the backend locally
 
@@ -82,7 +80,7 @@ git checkout leaflens-rework
 git lfs pull            # only needed if the weights didn't come down automatically
 ```
 
-Don't have Git LFS installed? Get it from https://git-lfs.com before
+If you don't have Git LFS installed, get it from https://git-lfs.com before
 cloning, or run `git lfs install` first if you already cloned without it.
 
 ## Deploying the backend
